@@ -1,0 +1,9 @@
+prefix=C:/Users/Public/Videos/demo/example/java/td
+
+Name: tdsqlite
+Description: Telegram Library - SQLite
+Version: 1.8.30
+
+CFlags: -I"${prefix}/include"
+Libs: -L"${prefix}/lib" -ltdsqlite
+Libs.private: -l"C:/Users/Public/Videos/demo/td/vcpkg/installed/x64-windows/lib/libcrypto" -l"C:/Users/Public/Videos/demo/td/vcpkg/installed/x64-windows/lib/zlib" -lws2_32 -lMswsock -lCrypt32

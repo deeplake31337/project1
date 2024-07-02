@@ -1,0 +1,9 @@
+prefix=C:/Users/Public/Videos/demo/example/java/td
+
+Name: tdcore
+Description: Telegram Library - Core
+Version: 1.8.30
+
+CFlags: -I"${prefix}/include"
+Libs: -L"${prefix}/lib" -ltdcore
+Requires.private: tdapi tdnet tddb tdactor tdutils tdmtproto

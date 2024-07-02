@@ -1,0 +1,10 @@
+prefix=C:/Users/Public/Videos/demo/example/java/td
+
+Name: tdapi
+Description: Telegram Library - API
+Version: 1.8.30
+
+CFlags: -I"${prefix}/include"
+Libs: -L"${prefix}/lib" -ltdapi
+Requires.private: tdutils
+Libs.private: -l"C:/Program Files/Java/jdk-22/lib/jvm"
