@@ -1,0 +1,10 @@
+^C:\USERS\PUBLIC\VIDEOS\DEMO\TD\EXAMPLE\JAVA\BUILD\CMAKEFILES\BB31F381A241A62DA18634019C1486C5\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

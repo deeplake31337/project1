@@ -1,0 +1,26 @@
+^C:\USERS\PUBLIC\VIDEOS\DEMO\TD\EXAMPLE\JAVA\BUILD\CMAKEFILES\BB31F381A241A62DA18634019C1486C5\GENERATE_JAVADOC.RULE
+setlocal
+cd C:\Users\Public\Videos\demo\td\example\java
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -rf -- C:/Users/Public/Videos/demo/td/tdlib/bin/../docs
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-22\bin\javadoc.exe" -encoding UTF-8 -charset UTF-8 -d C:/Users/Public/Videos/demo/td/tdlib/bin/../docs C:/Users/Public/Videos/demo/td/example/java/org/drinkless/tdlib/Client.java C:/Users/Public/Videos/demo/td/example/java/org/drinkless/tdlib/TdApi.java
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\VIDEOS\DEMO\TD\EXAMPLE\JAVA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Videos/demo/td/example/java -BC:/Users/Public/Videos/demo/td/example/java/build --check-stamp-file C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

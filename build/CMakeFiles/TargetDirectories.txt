@@ -1,0 +1,7 @@
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/td_generate_java_api.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/build_java.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/generate_javadoc.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/tdjni.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/INSTALL.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Public/Videos/demo/td/example/java/build/CMakeFiles/ZERO_CHECK.dir

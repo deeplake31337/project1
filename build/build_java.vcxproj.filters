@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Videos\demo\td\example\java\build\CMakeFiles\bb31f381a241a62da18634019c1486c5\build_java.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Videos\demo\td\example\java\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\Videos\demo\td\example\java\build\CMakeFiles\build_java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{53E46F75-9AED-3C28-8949-3B9444DB93EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

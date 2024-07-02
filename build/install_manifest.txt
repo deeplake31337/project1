@@ -1,0 +1,5 @@
+C:/Users/Public/Videos/demo/td/example/java/build/../../../tdlib/bin/tdjni.dll
+C:/Users/Public/Videos/demo/td/example/java/build/../../../tdlib/bin/libcrypto-3-x64.dll
+C:/Users/Public/Videos/demo/td/example/java/build/../../../tdlib/bin/libssl-3-x64.dll
+C:/Users/Public/Videos/demo/td/example/java/build/../../../tdlib/bin/tdjni.dll
+C:/Users/Public/Videos/demo/td/example/java/build/../../../tdlib/bin/zlib1.dll

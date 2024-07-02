@@ -1,0 +1,10 @@
+^C:\USERS\PUBLIC\VIDEOS\DEMO\TD\EXAMPLE\JAVA\BUILD\CMAKEFILES\BB31F381A241A62DA18634019C1486C5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Videos/demo/td/example/java -BC:/Users/Public/Videos/demo/td/example/java/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Public/Videos/demo/td/example/java/build/TdJavaExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
